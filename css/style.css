@@ -126,6 +126,12 @@ h6 {
 
 
 /* Header Style */
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 105px;
+}
+
 h2 {
     font-weight: 700;
     font-size: 48px;
@@ -755,6 +761,8 @@ ul {
     color: #000000;
 }
 
+/* BLOG PAGE */
+
 .trending-blogs {
     gap: 30px;
     flex-wrap: wrap;
@@ -903,9 +911,77 @@ ul {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-
     color: #667085;
 }
+
+
+/* ABOUT US */
+.values {
+    padding-top: 70px;
+    padding-bottom: 176px;
+}
+
+.value-heading {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.value-content {
+    flex-wrap: wrap;
+}
+
+.value-card {
+    flex-direction: column;
+    width: 350px;
+    height: 489px;
+}
+
+.value-card>h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* padding-bottom: 22px; */
+}
+
+.value-card>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    /* padding-bottom: 51px; */
+}
+
+.value-card>img {
+    border-radius: 20px;
+}
+
+.members {
+    text-align: center;
+}
+
+.members-heading {
+    padding-bottom: 8px;
+}
+
+.member-sub-head {
+    width: 790px;
+    margin: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #000000;
+    padding-bottom: 102px;
+}
+
+
+
+
+
 
 
 
