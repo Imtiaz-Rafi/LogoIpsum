@@ -957,6 +957,7 @@ ul {
 }
 
 .members {
+    margin-bottom: 205.55px;
     text-align: center;
 }
 
@@ -977,6 +978,32 @@ ul {
     color: #000000;
     padding-bottom: 102px;
 }
+
+.member-content{
+    flex-wrap: wrap;
+    gap: 48px 41px;
+}
+.member-grid{
+    width: 341.66px;
+}
+.member-grid>h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.2069px;
+    line-height: 35px;
+    text-align: center;
+}
+.member-grid>p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.7606px;
+    line-height: 29px;
+    text-align: center;
+}
+
+
 
 
 
