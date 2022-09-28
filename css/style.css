@@ -1002,6 +1002,58 @@ ul {
     line-height: 29px;
     text-align: center;
 }
+.achievement{
+    margin-bottom: 80px;
+    border-radius: 24px;
+    padding: 50px 65px;
+}
+.achievement-heading{
+    color: white;
+    padding-bottom: 26px;
+}
+.achievement-content{
+    
+}
+.achievement-list{
+    width: 284px;
+}
+.achievement-list>h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 95px;
+    color: #FFFFFF;
+    padding-bottom: 23px;
+}
+.achievement-list>p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+.free-chapter{
+    padding-bottom: 72px;
+    border-bottom: 1px solid #E4E4E7;
+    margin-bottom: 62px;
+}
+.free-chapter>h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+.free-chapter>a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-radius: 60px;
+    align-items: center;
+    padding: 14px 46.88px;
+}
+
 
 
 
