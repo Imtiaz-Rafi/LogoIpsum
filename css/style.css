@@ -626,4 +626,130 @@ ul {
     .nav-links {
         display: none;
     }
+
+    .banner {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .banner-right {
+        padding-left: 0px;
+    }
+
+    .banner-right>img {
+        width: 100%;
+    }
+
+    .banner-left {
+        text-align: center;
+        width: 100%;
+        /* padding: 10px; */
+    }
+
+    .banner-desc {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .banner-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .banner-bottom>.companies {
+        justify-content: center;
+
+    }
+
+    .banner-bottom>.companies {
+        justify-content: center;
+
+    }
+
+    .banner-bottom>.companies>li {
+        padding: 10px;
+    }
+
+    .process-title,
+    .case-title {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 24px;
+    }
+
+    .process {
+        display: none;
+    }
+
+    .fintech,
+    .beauty,
+    .restaurant,
+    .medical {
+        padding-right: 32px;
+    }
+
+    .fintech>.case-bottom>.case-image,
+    .beauty>.case-bottom>.case-image,
+    .restaurant>.case-bottom>.case-image,
+    .medical>.case-bottom>.case-image {
+        padding-top: 170px;
+    }
+
+    .fintech>.case-bottom>.case-desc,
+    .beauty>.case-bottom>.case-desc,
+    .restaurant>.case-bottom>.case-desc,
+    .medical>.case-bottom>.case-desc {
+        width: 100%;
+    }
+
+    .clients-feedback {
+        padding: 0px;
+        /* padding: 10px; */
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .testimonial-right>.client-text {
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        padding-bottom: 32px;
+    }
+
+    .client-info {
+        text-align: center;
+    }
+
+    .newsletter {
+        padding: 0px;
+    }
+
+    .subscribe {
+        gap: 5px;
+    }
+
+    .subscribe>.text-input {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-desc {
+        width: 100%;
+    }
+
+    .social-links {
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    .widget {
+        text-align: center;
+        padding-bottom: 20px;
+    }
 }
