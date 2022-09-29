@@ -979,14 +979,16 @@ ul {
     padding-bottom: 102px;
 }
 
-.member-content{
+.member-content {
     flex-wrap: wrap;
     gap: 48px 41px;
 }
-.member-grid{
+
+.member-grid {
     width: 341.66px;
 }
-.member-grid>h3{
+
+.member-grid>h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -994,7 +996,8 @@ ul {
     line-height: 35px;
     text-align: center;
 }
-.member-grid>p{
+
+.member-grid>p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -1002,22 +1005,25 @@ ul {
     line-height: 29px;
     text-align: center;
 }
-.achievement{
+
+.achievement {
     margin-bottom: 80px;
     border-radius: 24px;
     padding: 50px 65px;
 }
-.achievement-heading{
+
+.achievement-heading {
     color: white;
     padding-bottom: 26px;
 }
-.achievement-content{
-    
-}
-.achievement-list{
+
+.achievement-content {}
+
+.achievement-list {
     width: 284px;
 }
-.achievement-list>h2{
+
+.achievement-list>h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -1026,7 +1032,8 @@ ul {
     color: #FFFFFF;
     padding-bottom: 23px;
 }
-.achievement-list>p{
+
+.achievement-list>p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -1034,17 +1041,20 @@ ul {
     line-height: 53px;
     color: #FFFFFF;
 }
-.free-chapter{
+
+.free-chapter {
     padding-bottom: 72px;
     border-bottom: 1px solid #E4E4E7;
     margin-bottom: 62px;
 }
-.free-chapter>h2{
+
+.free-chapter>h2 {
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
 }
-.free-chapter>a{
+
+.free-chapter>a {
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
@@ -1054,13 +1064,124 @@ ul {
     padding: 14px 46.88px;
 }
 
+.contact-headers {
+    padding: 56px 0px;
+}
 
+.contact-heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding-bottom: 20px;
+}
 
+.contact-sub-heading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
 
+}
 
+.contact-form {
+    width: 480px;
+    margin: auto;
+    padding-bottom: 124px;
+}
 
+.input-form {
+    padding-bottom: 24px;
+}
 
+.input-form input,
+.input-form textarea {
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FFFFFF;
+}
 
+.input-form>.input-box {
+    /* width: 93%; */
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-top: 6px;
+}
+
+.input-form>label,
+.input-form>.check-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+select#us {
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.input-form .check {
+    border: 1px solid #D0D5DD;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 12px;
+}
+
+.disp-flx {
+    display: flex;
+    align-items: center;
+}
+
+.check-text>a {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.submit-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    text-align: center;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-93 {
+    width: 93%;
+}
+
+.width-85 {
+    width: 85%;
+}
+
+.mr-32 {
+    margin-right: 32px;
+}
 
 
 
