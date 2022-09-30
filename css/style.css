@@ -13,6 +13,20 @@
     padding: 0;
 }
 
+.animate {
+    animation: transitionLeft 0.75s;
+}
+
+@keyframes transitionLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
 h1,
 h2,
 h3,
@@ -165,6 +179,7 @@ ul {
 .navbar {
     background: #FFFFFF;
     position: sticky;
+    z-index: 1;
     top: 0;
     padding: 30px 0px;
 }
@@ -1201,8 +1216,6 @@ select#us {
     margin-right: 32px;
 }
 
-
-
 @media only screen and (max-width: 768px) {
     .container {
         width: 100%;
@@ -1271,6 +1284,8 @@ select#us {
     .nav-btns>li>.login {
         margin-right: 0px;
     }
+
+
 
     .banner {
         width: 100%;
@@ -1433,5 +1448,84 @@ select#us {
     .widget {
         text-align: center;
         padding-bottom: 20px;
+    }
+
+    .content-full {
+        width: 100%;
+    }
+
+    .trending-blogs {
+        justify-content: center;
+    }
+
+    .trending-blogs img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-flex {
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .blog-posts {
+        justify-content: center;
+    }
+
+    .all-blogs-heading {
+        text-align: center;
+    }
+
+    .pagination-bar {
+        justify-content: center;
+    }
+
+    .prev-arrow,
+    .next-arrow {
+        display: none;
+    }
+
+    .value-content {
+        justify-content: center;
+    }
+
+    .member-sub-head {
+        width: 100%;
+    }
+
+    .member-content {
+        justify-content: center;
+    }
+
+    .achievement-content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .achievement {
+        padding: 10px;
+    }
+
+    .achievement-list {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .disp-flx {
+        display: block;
+    }
+
+    .mr-32 {
+        margin-right: 0;
+    }
+
+    .input-box {
+        width: 90%;
     }
 }
